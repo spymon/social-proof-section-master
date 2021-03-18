@@ -1,0 +1,16 @@
+@mixin media-lg {
+  @media screen and (max-width: 1150px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (max-width: 1100px) {
+    @content;
+  }
+}
+@mixin media-sm {
+  @media screen and (max-width: 620px) {
+    @content;
+  }
+}
